@@ -27,6 +27,7 @@ public class BattleShip {
     /*
      * Mark a field in the matrix with "2" = means the cell is hit
      * String hitCoord: e.g. "1B 2C"
+     * Time complexity: O(n) because of substring
      */
     private void hitShip(String hitCoord) {
         int y = Integer.parseInt(hitCoord.substring(0,1)) - 1;
@@ -37,6 +38,7 @@ public class BattleShip {
     /*
      * Get cordinates from String like "1B 2C"
      * Returns an array with X and Y coordinates of the ship
+     * Time complexity: O(n) because of substring
      */
     private int[] getCoord(String coord) {
         // Get int values from letters (index in the alphabet minus 1)
@@ -53,6 +55,7 @@ public class BattleShip {
     /*
      * Print field matrix to see it visually
      * int N: size of the field
+     * Time complexity: O(n^2)
      */
     private void printField(int N) {
         for (int i = 0; i < N; i++) {
@@ -92,6 +95,8 @@ public class BattleShip {
 
     /*
      * Play the game
+     * Global time complexity: O(n^2)
+     * Space: O(n^2), n <= 26
      */
     private String solution(int N, String S, String H) {
 
