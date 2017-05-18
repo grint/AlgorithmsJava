@@ -1,4 +1,4 @@
-/**
+package String; /**
  * https://www.hackerrank.com/challenges/palindrome-index
  */
 

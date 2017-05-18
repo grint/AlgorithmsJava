@@ -1,10 +1,10 @@
-/**
+package Graph; /**
  * https://www.hackerrank.com/challenges/journey-to-the-moon
  */
 
 import java.io.*;
 
-public class Graphs_JourneyToTheMoon {
+public class JourneyToTheMoon {
     public static void main(String[] args) throws Exception{
         BufferedReader bfr = new BufferedReader(new InputStreamReader(System.in));
         String[] temp = bfr.readLine().split(" ");

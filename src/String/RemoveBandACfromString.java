@@ -1,4 +1,4 @@
-/**
+package String; /**
  * http://practice.geeksforgeeks.org/problem-page.php?pid=297
  */
 

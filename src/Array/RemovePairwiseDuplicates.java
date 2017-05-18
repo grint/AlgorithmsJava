@@ -1,4 +1,4 @@
-/**
+package Array; /**
  * http://practice.geeksforgeeks.org/problems/string-manipulation/0
  */
 

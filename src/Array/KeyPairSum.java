@@ -1,4 +1,4 @@
-/**
+package Array; /**
  * http://practice.geeksforgeeks.org/problems/key-pair/0
  */
 

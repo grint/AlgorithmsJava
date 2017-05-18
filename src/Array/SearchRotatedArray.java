@@ -1,4 +1,4 @@
-/**
+package Array; /**
  * http://practice.geeksforgeeks.org/problems/search-in-a-rotated-array/0
  */
 
